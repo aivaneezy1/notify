@@ -14,7 +14,7 @@ export function ConvexClientProvider({ children }: { children: ReactNode }) {
             <ClerkLoading>
                 <div className="flex flex-col justify-center items-center h-screen">
                     <Loading />
-                    <h2 className="text-white">Loading...</h2>
+                    <h2 className="">Loading...</h2>
                 </div>
             </ClerkLoading>
             <ClerkLoaded>

@@ -67,13 +67,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 body {
-  background-color: #1f1f1f; /* Dark background for contrast */
-  background-image: radial-gradient(
-    circle 500px at 50% 200px,
-    #3e3e3e,
-    transparent
-  );
-  background-repeat: repeat; /* Pixelate the background if desired */
   margin: 0;
   padding: 0;
   width: 100%;
@@ -81,7 +74,16 @@ body {
   overflow-x: hidden;
   font-family: "Press Start 2P", cursive;
 }
-
 .pixel-font {
   font-family: "Press Start 2P", cursive;
+}
+
+.mainStyle {
+  background-color: #1f1f1f; /* Dark background for contrast */
+  background-image: radial-gradient(
+    circle 500px at 50% 200px,
+    #3e3e3e,
+    transparent
+  );
+  background-repeat: repeat;
 }
